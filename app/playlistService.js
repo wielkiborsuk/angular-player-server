@@ -10,6 +10,3 @@ function playlistService() {
 util.extend(playlistService, _super);
 
 module.exports = new playlistService();
-
-// module.exports.add({playlist: {name: 'hehe'}});
-// module.exports.list();

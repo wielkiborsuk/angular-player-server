@@ -15,7 +15,6 @@ fileScanner.prototype = {
         this.scan(bpath, '')
 	},
     scan: function (bpath,path) {
-        // console.log('scanning '+path);
         var files = fs.readdirSync(bpath+sep+path)
         var res = []
         for (var i in files) {
